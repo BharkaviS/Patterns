@@ -15,11 +15,11 @@ import java.util.*;
 public class ZohoPat2
 {
 	public static void main(String[] args) {
-		int n,i,j,k=1,diff=5,l;
+		int n,i,j,k=1,diff,l;
 		Scanner sc = new Scanner(System.in);
 		n=sc.nextInt();
 		for(i=n;i>0;i--){
-		    diff = 5;
+		    diff = n;
 		    l=k;
 		    System.out.print(k+" ");
 		    for(j=1;j<i;j++){
