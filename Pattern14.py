@@ -23,10 +23,10 @@ M*******
 
 s=input()
 k=s
-a=list(k.lower())
-b=set(a)
+b=set(k.lower())
 a=list(b)
 a.sort()
+
 for i in range(0,len(a)):
     for j in range(0,len(s)):
         c=s[j].lower()
