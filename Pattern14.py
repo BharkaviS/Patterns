@@ -28,7 +28,7 @@ b=set(a)
 a=list(b)
 a.sort()
 for i in range(0,len(a)):
-    for j in range(0,len(s)):
+    for j in range(i,len(s)):
         c=s[j].lower()
         if(c==a[i]):
             print(s[j],end="")
